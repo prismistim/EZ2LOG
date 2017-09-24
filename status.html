@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EZ2LOG | TOP</title>
+    <title>EZ2LOG | STATUS</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/default.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -38,31 +38,27 @@
           <div class="panel panel-default">
             <div class="panel-heading">User Data</div>
             <div class="panel-body">
-              <div class="thumbnail"><img src="img/prof.png">
+              <div class="thumbnail"><img class="img-thumbnail" src="img/prof.png">
                 <div class="caption">
                   <h3>DJ SE2TEN</h3>
                   <table class="table">
                     <tr>
-                      <th>5K ONLY</th>
-                      <td>Lv.12</td>
+                      <th>Favorite Mode</th>
+                      <td>5K ONLY, 5K STANDARD</td>
                     </tr>
                     <tr>
-                      <th>5K STANDARD</th>
-                      <td>Lv.8</td>
+                      <th>Update Date</th>
+                      <td>2017-xx-xx</td>
                     </tr>
                     <tr>
-                      <th>7K STANDARD</th>
-                      <td>Lv.2</td>
+                      <th>Home Location</th>
+                      <td>World Game Circus</td>
                     </tr>
                   </table>
-                  <p><a class="btn btn-default" href="#" role="button">More</a></p>
+                  <p><a class="btn btn-default" href="#" role="button">Edit</a></p>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="well well-lg text-center">
-            <h2>Submit Score</h2>
-            <button class="btn btn-success">New Submit</button>
           </div>
         </div>
         <div class="col-lg-8">
@@ -70,9 +66,23 @@
             <div class="panel panel-default">
               <div class="panel-heading">Data</div>
               <div class="panel-body">
+                <div class="col-sm-12 controllArea">
+                  <div class="btn-group">
+                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Select Ver.<span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">TIME TRAVELER</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">NIGHT TRAVELER</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">EVOLVE</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ENDLESS CIRCULATION</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">BONUS EDITION reversion A</a></li>
+                    </ul>
+                    <button class="btn btn-success submitBtn">New Submit</button>
+                  </div>
+                  <h3 class="col-sm-12 verTitle">EZ2AC : TIME TRAVELER</h3>
+                </div>
                 <div class="col-sm-6">
-                  <div class="panel panel-default">
-                    <div class="panel-heading">Mode Data</div>
+                  <div class="panel panel-info">
+                    <div class="panel-heading">Max Clear Data</div>
                     <div class="panel-body">xxxxxxx
                       <table class="table">
                         <tr>
@@ -85,6 +95,18 @@
                         </tr>
                         <tr>
                           <th>7K STANDARD</th>
+                          <td>Lv.2</td>
+                        </tr>
+                        <tr>
+                          <th>10K MANIAC</th>
+                          <td>Lv.2</td>
+                        </tr>
+                        <tr>
+                          <th>EZ2CATCH</th>
+                          <td>Lv.2</td>
+                        </tr>
+                        <tr>
+                          <th>TURNTABLE</th>
                           <td>Lv.2</td>
                         </tr>
                       </table>
@@ -92,23 +114,17 @@
                   </div>
                 </div>
                 <div class="col-sm-6">
-                  <div class="panel panel-default">
-                    <div class="panel-heading">Course Data</div>
-                    <div class="panel-body">xxxxxxx
-                      <table class="table">
-                        <tr>
-                          <th>5K ONLY</th>
-                          <td>Lv.12</td>
-                        </tr>
-                        <tr>
-                          <th>5K STANDARD</th>
-                          <td>Lv.8</td>
-                        </tr>
-                        <tr>
-                          <th>7K STANDARD</th>
-                          <td>Lv.2</td>
-                        </tr>
-                      </table>
+                  <div class="panel panel-warning">
+                    <div class="panel-heading">Play Course Data</div>
+                    <div class="panel-body">xxxxxx
+                      <h4>5K COURSE</h4>
+                      <div class="well"><span class="label label-primary">Funky Groove</span><span class="label label-primary">Front Desk</span><span class="label label-primary">kari</span><br><span class="label label-primary">iMp</span><span class="label label-danger">LEVEL:OMEGA</span></div>
+                      <h4>7K COURSE</h4>
+                      <div class="well"><span class="label label-primary">Inspiration</span><span class="label label-primary">Modern Classic</span><span class="label label-danger">LEVEL:ZETA</span></div>
+                      <h4>10K COURSE</h4>
+                      <div class="well">null</div>
+                      <h4>14K COURSE</h4>
+                      <div class="well">null</div>
                     </div>
                   </div>
                 </div>

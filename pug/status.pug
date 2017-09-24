@@ -5,7 +5,7 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     //-メタ宣言の終了
-    title EZ2LOG | TOP
+    title EZ2LOG | STATUS
     //-ページタイトル
     link(rel="stylesheet", href="css/bootstrap.min.css")
     link(rel="stylesheet", href="css/default.css")
@@ -48,32 +48,46 @@ html(lang="en")
                 .panel-heading User Data
                 .panel-body
                   .thumbnail
-                    img(src="img/prof.png")
+                    img.img-thumbnail(src="img/prof.png")
                     .caption
                       h3 DJ SE2TEN
                       table.table
                         tr
-                          th 5K ONLY
-                          td Lv.12
+                          th Favorite Mode
+                          td 5K ONLY, 5K STANDARD
                         tr
-                          th 5K STANDARD
-                          td Lv.8
+                          th Update Date
+                          td 2017-xx-xx
                         tr
-                          th 7K STANDARD
-                          td Lv.2
+                          th Home Location
+                          td World Game Circus
                       p
-                        a.btn.btn-default(href="#" role="button") More
-          .well.well-lg.text-center
-            h2 Submit Score
-            button.btn.btn-success New Submit
+                        a.btn.btn-default(href="#" role="button") Edit
         .col-lg-8
           .row
             .panel.panel-default
               .panel-heading Data
               .panel-body
+                .col-sm-12.controllArea
+                  .btn-group
+                    button.btn.btn-default.dropdown-toggle(data-toggle="dropdown" aria-expanded="false") Select Ver.
+                      span.caret
+                    ul.dropdown-menu(role="menu")
+                      li(role="presentation")
+                        a(role="menuitem" tabindex="-1" href="#") TIME TRAVELER
+                      li(role="presentation")
+                        a(role="menuitem" tabindex="-1" href="#") NIGHT TRAVELER
+                      li(role="presentation")
+                        a(role="menuitem" tabindex="-1" href="#") EVOLVE
+                      li(role="presentation")
+                        a(role="menuitem" tabindex="-1" href="#") ENDLESS CIRCULATION
+                      li(role="presentation")
+                        a(role="menuitem" tabindex="-1" href="#") BONUS EDITION reversion A
+                    button.btn.btn-success.submitBtn New Submit
+                  h3.col-sm-12.verTitle EZ2AC : TIME TRAVELER
                 .col-sm-6
                   .panel.panel-info
-                    .panel-heading Mode Data
+                    .panel-heading Max Clear Data
                     .panel-body xxxxxxx
                       table.table
                             tr
@@ -84,25 +98,34 @@ html(lang="en")
                               td Lv.8
                             tr
                               th 7K STANDARD
+                              td Lv.2
+                            tr
+                              th 10K MANIAC
+                              td Lv.2
+                            tr
+                              th EZ2CATCH
+                              td Lv.2
+                            tr
+                              th TURNTABLE
                               td Lv.2
                 .col-sm-6
                   .panel.panel-warning
-                    .panel-heading Course Data
-                    .panel-body xxxxxxx
-                      table.table
-                            tr
-                              th 5K ONLY
-                              td Lv.12
-                            tr
-                              th 5K STANDARD
-                              td Lv.8
-                            tr
-                              th 7K STANDARD
-                              td Lv.2
-
-          
-      
-
-          
-
-
+                    .panel-heading Play Course Data
+                    .panel-body xxxxxx
+                      h4 5K COURSE
+                      .well
+                        span.label.label-primary Funky Groove
+                        span.label.label-primary Front Desk
+                        span.label.label-primary kari
+                        br
+                        span.label.label-primary iMp
+                        span.label.label-danger LEVEL:OMEGA
+                      h4 7K COURSE
+                      .well
+                        span.label.label-primary Inspiration
+                        span.label.label-primary Modern Classic
+                        span.label.label-danger LEVEL:ZETA
+                      h4 10K COURSE
+                      .well null
+                      h4 14K COURSE
+                      .well null

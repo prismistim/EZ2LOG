@@ -21,3 +21,19 @@ body{
 .caption h3{
   text-align: center;
 }
+
+.controllArea{
+  padding-bottom: 1em;
+}
+
+.submitBtn{
+  margin-left: 1em;
+}
+
+.verTiitle{
+  padding-bottom: 1em;
+}
+
+.label{
+  margin-left: 0.2em;
+}
