@@ -22,11 +22,11 @@ html(lang="en")
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.navbar-brand(href="#") EZ2LOG
+          a.navbar-brand(href="top.html") EZ2LOG
         .collapse.navbar-collapse(id="topnavi")
           ul.nav.navbar-nav
-            li
-              a(href="status.html") Status
+            li.active
+              a(href="#") Status
             li
               a(href="#") View
             li
@@ -39,22 +39,16 @@ html(lang="en")
 
     .container
       .jumbotron
-        h1 Welcome to EZ2LOG
-        p This service is to manage of your EZ2AC play log.
+        h1 Status
+        p Your DJ status is here.
       //- サービスタイトル
       .row
         .col-lg-4
-          .well.well-lg.text-center
-            h2 Submit Score
-            button.btn.btn-success New Submit
-        .col-lg-8
-          .row
-            .col-md-6
-              .panel.panel-default
+          .panel.panel-default
                 .panel-heading User Data
                 .panel-body
                   .thumbnail
-                    img.img-thumbnail(src="img/prof.png")
+                    img(src="img/prof.png")
                     .caption
                       h3 DJ SE2TEN
                       table.table
@@ -68,11 +62,44 @@ html(lang="en")
                           th 7K STANDARD
                           td Lv.2
                       p
-                        a.btn.btn-default(href="status.html" role="button") More
-            .col-md-6
-              .panel.panel-primary
-                .panel-heading Update News
-                .panel-body --
+                        a.btn.btn-default(href="#" role="button") More
+          .well.well-lg.text-center
+            h2 Submit Score
+            button.btn.btn-success New Submit
+        .col-lg-8
+          .row
+            .panel.panel-default
+              .panel-heading Data
+              .panel-body
+                .col-sm-6
+                  .panel.panel-info
+                    .panel-heading Mode Data
+                    .panel-body xxxxxxx
+                      table.table
+                            tr
+                              th 5K ONLY
+                              td Lv.12
+                            tr
+                              th 5K STANDARD
+                              td Lv.8
+                            tr
+                              th 7K STANDARD
+                              td Lv.2
+                .col-sm-6
+                  .panel.panel-warning
+                    .panel-heading Course Data
+                    .panel-body xxxxxxx
+                      table.table
+                            tr
+                              th 5K ONLY
+                              td Lv.12
+                            tr
+                              th 5K STANDARD
+                              td Lv.8
+                            tr
+                              th 7K STANDARD
+                              td Lv.2
+
           
       
 
