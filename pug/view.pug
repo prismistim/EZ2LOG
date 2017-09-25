@@ -5,7 +5,7 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     //-メタ宣言の終了
-    title EZ2LOG | TOP
+    title EZ2LOG | VIEW
     //-ページタイトル
     link(rel="stylesheet", href="css/bootstrap.min.css")
     link(rel="stylesheet", href="css/default.css")
@@ -22,12 +22,12 @@ html(lang="en")
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.navbar-brand(href="#") EZ2LOG
+          a.navbar-brand(href="top.html") EZ2LOG
         .collapse.navbar-collapse(id="topnavi")
           ul.nav.navbar-nav
             li
               a(href="status.html") Status
-            li
+            li.active
               a(href="view.html") View
             li
               a(href="#") Rival
@@ -39,18 +39,12 @@ html(lang="en")
 
     .container
       .jumbotron
-        h1 Welcome to EZ2LOG
-        p This service is to manage of your EZ2AC play log.
+        h1 View
+        p Your Play Score is here.
       //- サービスタイトル
       .row
         .col-lg-4
-          .well.well-lg.text-center
-            h2 Submit Score
-            button.btn.btn-success New Submit
-        .col-lg-8
-          .row
-            .col-md-6
-              .panel.panel-default
+          .panel.panel-default
                 .panel-heading User Data
                 .panel-body
                   .thumbnail
@@ -71,14 +65,9 @@ html(lang="en")
                           th Home Location
                           td World Game Circus
                       p
-                        a.btn.btn-default(href="status.html" role="button") More
-            .col-md-6
-              .panel.panel-primary
-                .panel-heading Update News
-                .panel-body --
-          
-      
-
-          
-
-
+                        a.btn.btn-default(href="#" role="button") Edit
+        .col-lg-8
+          .row
+            .panel.panel-default
+              .panel-heading Data
+              .panel-body
